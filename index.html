@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,16 +16,17 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .adlam {
-  font-family: "ADLaM Display", serif;
-  
-}
-.sora {
-  font-family: "Sora", serif;
-  
-}
+      font-family: "ADLaM Display", serif;
 
+    }
+
+    .sora {
+      font-family: "Sora", serif;
+
+    }
   </style>
 </head>
+
 <body>
 
   <header class=" bg-[#FFF9F4] ">
@@ -33,10 +35,10 @@
       <div class="navbar  ">
         <div class="navbar-start">
           <img src="c1-assets/logo-header.png" alt="">
-      
-         <div class=" invisible lg:visible">
-          <a class="btn btn-ghost  lg:text-2xl sora  text-black">Browse Pets</a>
-         </div>
+
+          <div class=" invisible lg:visible">
+            <a class="btn btn-ghost  lg:text-2xl sora  text-black">Browse Pets</a>
+          </div>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 sora text-xl text-black">
@@ -54,42 +56,117 @@
           </div>
           <div>
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-             <a href=""><i class="fa-solid fa-bars"></i></a>
+              <a href=""><i class="fa-solid fa-bars"></i></a>
             </div>
           </div>
-      
-         
+
+
         </div>
-      
+
       </div>
-     
+
     </section>
-    <section class=" mb-5"><hr class="lg:hidden "></section>
+    <section class=" mb-5">
+      <hr class="lg:hidden ">
+    </section>
 
   </header>
 
   <main class="max-w-screen-xl mx-auto lg:px-12">
     <!-- banner section design  -->
-    
-    <section class="px-2 lg:px-12" >
-      <div class="lg:h-[600px]">
-        <div class="relative"> 
-            <div class="relative" >
-              <h1 class=" text-6xl font-bold adlam">Pamper Your Pet, <br>Because They Deserve <br> the Bes</h1>
-          <p class="py-6 text-xl">
-          Discover a world of treats, toys, and essentials handpicked for your furry friends. <br> Shop now and make tails wag with
-          joy!
-          </p>
-          <button class="btn bg-[#FFDC26] sora">Find a pet</button>
-          <img src="c1-assets/cat-big.png " class="w-full absolute bg-transparent  lg:-top-10 " /></div>
+
+    <section class="px-2 lg:px-12 ">
+      <div>
+        <div>
+          <div>
+            <h1 class=" text-4xl adlam lg:text-6xl">Pamper Your Pet, <br>Because They Deserve <br> the Bes</h1>
+            <p class="py-6 text-xl">
+              Discover a world of treats, toys, and essentials handpicked for your furry friends. <br> Shop now and make
+              tails wag with
+              joy!
+            </p>
+            <button class="btn bg-[#FFDC26] sora">Find a pet</button>
+            <img src="c1-assets/cat-big.png " class="w-full  bg-transparent relative  lg:-top-52  mb-10 " />
+          </div>
         </div>
-       
+
       </div>
-    
+
     </section>
 
-  </main>
- 
+    <!-- Browse By Categories section  -->
+    <section class="px-2 mb-32 lg:px-12">
+      <h1 class="mb-10 text-2xl lg:text-4xl adlam">Browse By Categories</h1>
+<div class="grid grid-cols-2 gap-4 lg:grid-cols-6">
+  <div class="card bg-[#F9DF8A]  ">
+    <figure class="px-10 pt-10">
+      <img src="c1-assets/dog-cartoon.png" alt="Dog" class="rounded-full bg-white p-5" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-xl adlam">Dog</h2>
+      <p class="sora text-xl">3 items</p>
   
+    </div>
+  </div>
+  <div class="card bg-[#F9DF8A]  ">
+    <figure class="px-10 pt-10">
+      <img src="c1-assets/fish-cartoon.png" alt="Fish" class="rounded-full bg-white p-5" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-xl adlam">Fish</h2>
+      <p class="sora text-xl">3 items</p>
+  
+    </div>
+  </div>
+  <div class="card bg-[#F9DF8A]  ">
+    <figure class="px-10 pt-10">
+      <img src="c1-assets/cat-cartoon.png" alt="Cat" class="rounded-full bg-white p-5" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-xl adlam">Cat</h2>
+      <p class="sora text-xl">3 items</p>
+  
+    </div>
+  </div>
+  <div class="card bg-[#F9DF8A]  ">
+    <figure class="px-10 pt-10">
+      <img src="c1-assets/bird-cartoon.png" alt="Birds" class="rounded-full bg-white p-5" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-xl adlam">Birds</h2>
+      <p class="sora text-xl">3 items</p>
+  
+    </div>
+  </div>
+  <div class="card bg-[#F9DF8A]  ">
+    <figure class="px-10 pt-10">
+      <img src="c1-assets/dog-cartoon.png" alt="Small pet" class="rounded-full bg-white p-5" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-xl adlam">Small pet</h2>
+      <p class="sora text-xl">3 items</p>
+  
+    </div>
+  </div>
+  <div class="card bg-[#F9DF8A]  ">
+    <figure class="px-10 pt-10">
+      <img src="c1-assets/dog-cartoon.png" alt="Rabit" class="rounded-full bg-white p-5" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-xl adlam">Rabit</h2>
+      <p class="sora text-xl">3 items</p>
+  
+    </div>
+  </div>
+</div>
+          
+
+    </section>
+
+
+  </main>
+
+
 </body>
+
 </html>
